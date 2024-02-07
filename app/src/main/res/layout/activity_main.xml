@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#90FF9800"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -32,25 +33,23 @@
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textCapWords"
-        android:hint="@string/hint_name"
         android:layout_margin="20dp"
-        />
+        android:hint="@string/hint_name"
+        android:inputType="textCapWords" />
 
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/password"
         android:layout_marginHorizontal="20dp"
-        android:inputType="textPassword"
-        />
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
     <Button
         android:id="@+id/singInButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/sing_in_button"
         android:layout_margin="20dp"
-        />
+        android:text="@string/sing_in_button" />
 
 </LinearLayout>
