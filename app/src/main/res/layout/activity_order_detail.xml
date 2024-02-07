@@ -6,74 +6,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OrderDetailActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#4AFFC107"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/name"
-            android:textStyle="bold"
-            android:textSize="48sp"
             android:layout_margin="25dp"
-            />
+            android:text="@string/name"
+            android:textSize="48sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textViewName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
             android:layout_margin="25dp"
-            />
+            android:textSize="48sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/drink"
-            android:textStyle="bold"
-            android:textSize="48sp"
             android:layout_margin="25dp"
-            />
+            android:text="@string/drink"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/textViewDrink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
             android:layout_margin="25dp"
-            />
+            android:textSize="48sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_margin="25dp"
             android:text="@string/tepe_of_drink"
             android:textSize="48sp"
-            android:layout_margin="25dp"
-            />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textViewTypeDrink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
             android:layout_margin="25dp"
-            />
+            android:textSize="48sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dobavki"
-            android:textStyle="bold"
-            android:textSize="48sp"
             android:layout_margin="25dp"
-            />
+            android:text="@string/dobavki"
+            android:textSize="48sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textViewDobavki"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
             android:layout_margin="25dp"
-            />
+            android:textSize="48sp" />
     </LinearLayout>
 </ScrollView>
